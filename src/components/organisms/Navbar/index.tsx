@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import { navItems } from './data';
-import Navitem from './Navitem';
-import { Button } from '@/components/ui/button';
+import Image from "next/image";
+import React from "react";
+import { navItems } from "./data";
+import Navitem from "./Navitem";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
@@ -14,10 +14,12 @@ const Navbar = () => {
         ))}
       </div>
       <p className="flex-grow" />
-      <Button variant="outline" className="mr-6 w-40">
+      <Button variant="outline" size="md" className="mr-6 w-40">
         Join as a Coach
       </Button>
-      <Button className="w-40">Login</Button>
+      <Button size="md" className="w-40">
+        Login
+      </Button>
     </nav>
   );
 };
