@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: #f9fafb;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -33,9 +33,15 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --kn-gray1: #6a6a6a;
+    --kn-gray2: #475467;
+    --kn-gray3: #344054;
+    --kn-gray4: #D0D5DD;
+    --kn-gray5:#101828
+
   }
   .dark {
-    --background: 240 10% 3.9%;
+    --background: #f9fafb;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -59,6 +65,12 @@ body {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --kn-gray1: #6a6a6a;
+    --kn-gray2: #475467;
+    --kn-gray3: #344054;
+    --kn-gray4: #D0D5DD;
+    --kn-gray5:#101828
+
   }
 }
 
@@ -67,6 +79,6 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white;
   }
 }

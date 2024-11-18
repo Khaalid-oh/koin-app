@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			background: 'hsl(var(--background))',
+  			background: 'var(--background)',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -49,13 +49,23 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+				gray1: 'var(--kn-gray1)',
+				gray2: 'var(--kn-gray3)',
+				gray3: 'var(--kn-gray3)',
+				gray4: 'var(--kn-gray4)',
+				gray5: 'var(--kn-gray5)'
+
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+			boxShadow:{
+				knShadow: "0px 6px 20px 0px #00000033"
+
+			}
   	}
   },
   plugins: [require("tailwindcss-animate")],
