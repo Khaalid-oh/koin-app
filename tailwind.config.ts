@@ -51,10 +51,11 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			},
 				gray1: 'var(--kn-gray1)',
-				gray2: 'var(--kn-gray3)',
+				gray2: 'var(--kn-gray2)',
 				gray3: 'var(--kn-gray3)',
 				gray4: 'var(--kn-gray4)',
-				gray5: 'var(--kn-gray5)'
+				gray5: 'var(--kn-gray5)',
+				gray6: 'var(--kn-gray6)',
 
   		},
   		borderRadius: {
